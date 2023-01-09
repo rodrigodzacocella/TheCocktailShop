@@ -1,0 +1,84 @@
+.single__cocktail-section {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  justify-content: center;
+  padding: 4.2rem;
+  font-size: 2.4rem;
+  width: 100%;
+}
+
+.single__cocktail {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  border-bottom: 2px solid rgb(230, 149, 255);
+  border-right: 2px solid rgb(230, 149, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 3.6rem;
+  width: 100rem;
+  text-align: left;
+}
+
+.single__cocktail-btn:link,
+.single__cocktail-btn:visited {
+  color: black;
+  border: 1px solid rgb(230, 149, 255);
+  width: 18rem;
+  padding: 0.6rem 0;
+  border-radius: 5px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.single__cocktail-btn:hover,
+.single__cocktail-btn:active {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(230, 149, 255);
+  color: #fff;
+}
+
+.single__cocktail-image {
+  width: 40rem;
+}
+
+.single__cocktail-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 3.2rem;
+}
+
+.single__cocktail-data {
+  font-size: 1.8rem;
+  transition: 0.2s;
+}
+
+.single__cocktail-data:hover,
+.single__cocktail-data span:hover {
+  color: rgb(230, 149, 255);
+}
+
+.single__cocktail-data span {
+  color: #333;
+  border-bottom: 1px solid rgb(230, 149, 255);
+  border-right: 1px solid rgb(230, 149, 255);
+  padding-right: 0.8rem;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+
+.single__cocktail-data:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.ingredient {
+  border: none !important;
+  font-size: 1.8rem !important ;
+  margin-right: 10px;
+}

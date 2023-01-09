@@ -1,0 +1,7 @@
+.cocktails__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3.6rem 12rem;
+  gap: 3.6rem;
+  justify-items: center;
+}
